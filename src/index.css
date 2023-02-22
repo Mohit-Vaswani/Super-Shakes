@@ -120,10 +120,6 @@ main h1{
   position: relative;
 }
 
-.smoothie-card h3 {
-  text-decoration: underline;
-}
-
 .smoothie-card .rating {
   position: absolute;
   top: -10px;
@@ -165,5 +161,19 @@ form button {
   border-radius: 6px;
   padding: 6px 8px;
   font-family: "Poppins";
+  cursor: pointer;
+}
+
+.smoothie-card .buttons{
+  text-align: right;
+}
+
+.smoothie-card i{
+  color: #bbb;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  padding: 6px;
+  background: #eee;
+  border-radius: 50%;
   cursor: pointer;
 }
